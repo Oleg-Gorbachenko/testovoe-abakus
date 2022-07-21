@@ -1,0 +1,17 @@
+.boneTop {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 5px 5px 0 5px;
+    top: 30px;
+    left: -2px;
+}
+
+.boneBottom {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 5px 5px 0 5px;
+    top: 90px;
+    left: -2px;
+}

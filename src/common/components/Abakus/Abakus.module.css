@@ -1,0 +1,41 @@
+.abakus {
+    display: flex;
+    height: 450px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    background: url("../../images/Frame 33.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.abakus1 {
+    display: flex;
+    height: 450px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    background: url("../../images/Frame 33 (1).png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.abakusTop {
+    min-height: 30px;
+    height: 33%;
+}
+
+.abakusBottom {
+    height: 60%;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.inputBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}

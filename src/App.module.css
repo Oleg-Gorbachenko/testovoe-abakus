@@ -1,0 +1,44 @@
+.container {
+    margin: 0 50px;
+    padding: 10px 0;
+    display: inline-block;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.themeWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.changeTheme {
+    display: inline-block;
+    min-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: gold;
+    padding: 5px;
+    border-radius: 20px;
+   text-align: center;
+}
+
+.abakusContainer {
+    display: flex;
+    border-left: grey 18px solid;
+    border-right: grey 18px solid;
+    border-radius: 10px;
+}
+
+.abakusContainer1 {
+    display: flex;
+    border-left: #692212 18px solid;
+    border-right: #692212 18px solid;
+    border-radius: 10px;
+}

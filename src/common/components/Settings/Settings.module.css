@@ -1,0 +1,31 @@
+.settings {
+    width: 100%;
+    min-height: 10vh;
+}
+
+.inputBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputBlock__input {
+    display: flex;
+    max-width: 80px;
+    max-height: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: #7a91b3 2px solid;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.inputBlock__inputText {
+    font-size: 20px;
+    color: #7a91b3;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
